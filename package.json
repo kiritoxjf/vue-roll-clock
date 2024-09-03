@@ -1,0 +1,32 @@
+{
+	"name": "vue-roll-clock",
+	"private": false,
+	"version": "0.0.1",
+	"description": "基于 Vue3 的滚动数字时钟组件",
+	"main": "dist/vue-roll-clock.cjs",
+	"module": "dist/vue-roll-clock.js",
+	"files": [
+		"dist"
+	],
+	"keywords": [
+		"vue3",
+		"roll",
+		"clock",
+		"数字时钟",
+		"滚动数字"
+	],
+	"author": "kiritoxjf",
+	"license": "MIT",
+	"scripts": {
+		"dev": "vite",
+		"build": "vite build",
+		"preview": "vite preview"
+	},
+	"dependencies": {
+		"vue": "^3.4.37"
+	},
+	"devDependencies": {
+		"@vitejs/plugin-vue": "^5.1.2",
+		"vite": "^5.4.1"
+	}
+}
